@@ -1,6 +1,8 @@
 #ifndef _UAPI_MSM_IPA_H_
 #define _UAPI_MSM_IPA_H_
 
+#define IPAHAL_NAT_INVALID_PROTOCOL   0xFF
+
 #ifndef __KERNEL__
 #include <stdint.h>
 #include <stddef.h>
